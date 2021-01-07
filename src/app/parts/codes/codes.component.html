@@ -1,1 +1,25 @@
-<p>codes works!</p>
+<span>dsdsds</span>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <ng-container *ngFor="let col of displayedColumns" [matColumnDef]="col">
+    <th mat-header-cell *matHeaderCellDef> {{ displayedColumnsLabel[col] }} </th>
+    <td mat-cell *matCellDef="let element"> 
+      <div *ngIf="col !== 'actions'; else actionBlock">
+        {{ element[col] }}
+      </div>
+      <ng-template #actionBlock>
+        <div class="mat-btn-group">
+          <button mat-raised-button class="info">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-raised-button class="danger">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </ng-template>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
