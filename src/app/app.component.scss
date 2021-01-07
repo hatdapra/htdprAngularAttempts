@@ -4,3 +4,34 @@
 .example-spacer{
   flex: 1 1 auto;
 }
+
+.app-toolbar {
+  z-index: 2;
+}
+
+.sidenav-container {
+  z-index: 1;
+}
+
+mat-sidenav-content {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+a[mat-button] {
+  color: rgb(200, 200, 200);
+  &.active {
+    color: white;
+  }
+}
+a[mat-list-item] {
+  color: rgb(121, 121, 121);
+  &.active {
+    color: rgb(121, 121, 121);
+    background-color: rgb(200, 200, 200);
+  }
+}
+
+.sidebarikon{
+  margin-right: 10px;
+}

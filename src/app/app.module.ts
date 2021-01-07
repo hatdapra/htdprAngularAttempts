@@ -31,10 +31,16 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FuvarokComponent } from './pages/fuvarok/fuvarok.component';
+import { ListakComponent } from './pages/listak/listak.component';
+import { CodesComponent } from './parts/codes/codes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FuvarokComponent,
+    ListakComponent,
+    CodesComponent
   ],
   imports: [
     BrowserModule,

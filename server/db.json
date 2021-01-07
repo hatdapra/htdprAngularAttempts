@@ -1,0 +1,89 @@
+{
+  "codes":[
+    {
+      "id": 1,
+      "code": "EK",
+      "premium": "nem"
+    },
+    {
+      "id": 2,
+      "code": "EPF",
+      "premium": "igen"
+    },
+    {
+      "id": 3,
+      "code": "EXE",
+      "premium": "nem"
+    },
+    {
+      "id": 4,
+      "code": "EXI",
+      "premium": "nem"
+    },
+    {
+      "id": 5,
+      "code": "EXPE",
+      "premium": "igen"
+    },
+    {
+      "id": 6,
+      "code": "EXPI",
+      "premium": "igen"
+    },
+    {
+      "id": 7,
+      "code": "GE",
+      "premium": "nem"
+    },
+    {
+      "id": 8,
+      "code": "GI",
+      "premium": "nem"
+    },
+    {
+      "id": 9,
+      "code": "HANDE",
+      "premium": "igen"
+    },
+    {
+      "id": 10,
+      "code": "HANDI",
+      "premium": "igen"
+    },
+    {
+      "id": 11,
+      "code": "IK",
+      "premium": "nem"
+    },
+    {
+      "id": 12,
+      "code": "IPF",
+      "premium": "igen"
+    },
+    {
+      "id": 13,
+      "code": "MILK",
+      "premium": "nem"
+    },
+    {
+      "id": 14,
+      "code": "NI",
+      "premium": "nem"
+    },
+    {
+      "id": 15,
+      "code": "NE",
+      "premium": "nem"
+    },
+    {
+      "id": 16,
+      "code": "MFK",
+      "premium": "igen"
+    },
+    {
+      "id": 17,
+      "code": "BSZK",
+      "premium": "nem"
+    }
+   ]
+}

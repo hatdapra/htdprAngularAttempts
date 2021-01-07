@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faList, faTable, faTruck } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faList, faTable, faTruck } from '@fortawesome/free-solid-svg-icons';
 import { ConfigService } from './services/config.service';
 
 @Component({
@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'Fuvarösszesítő';
   menuItems = this.config.menuItems;
   faTruck = faTruck;
+  faChevronLef = faChevronLeft;
   // faTable = faTable;
   // faList = faList;
 

@@ -9,15 +9,30 @@ export interface IMenuItem {
   icon?: IconDefinition;
 }
 
+export interface ICodeItems{
+  id: number;
+  code: string;
+  premium?: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class ConfigService {
   menuItems: IMenuItem[] = [
     {url: '/', text: 'Fuvarok', icon: faTable},
-    {url: '/basic', text: 'Listák szerkesztése', icon: faList},
+    {url: '/listak', text: 'Listák szerkesztése', icon: faList},
   ];
 
+  codeItems: ICodeItems[] = [
+    {id: 1, code: "EK", premium: "nem"},
+    {id: 2, code: "EPF", premium: "igen"},
+    {id: 3, code: "EXE", premium: "nem"},
+    {id: 4, code: "EXI", premium: "nem"}
+  ]
 
-  constructor() { }
+
+  constructor() { 
+    
+  }
 }
