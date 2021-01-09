@@ -1,5 +1,5 @@
 {
-  "codes":[
+  "codes": [
     {
       "id": 1,
       "code": "EK",
@@ -85,5 +85,343 @@
       "code": "BSZK",
       "premium": "nem"
     }
-   ]
+  ],
+  "carriers": [
+    { 
+      "id": 1,
+      "name": "Airmax"
+    },
+    {
+      "id": 2,
+      "name": "Baukó Attila"
+    },
+    {
+      "id": 3,
+      "name": "Békéshír Kft."
+    },
+    {
+      "id": 4,
+      "name": "DHL Express"
+    },
+    {
+      "id": 5,
+      "name": "DHL Freight"
+    },
+    {
+      "id": 6,
+      "name": "DHL Global Forwarding"
+    },
+    {
+      "id": 7,
+      "name": "DHL SLOVAKIA"
+    },
+    {
+      "id": 8,
+      "name": "DIVERSE"
+    },
+    {
+      "id": 9,
+      "name": "ETS Group"
+    },
+    {
+      "id": 10,
+      "name": "Euro V"
+    },
+    {
+      "id": 11,
+      "name": "FedEx"
+    },
+    {
+      "id": 12,
+      "name": "Fekete Zoltán"
+    },
+    {
+      "id": 13,
+      "name": "Hunicorn Kft"
+    },
+    {
+      "id": 14,
+      "name": "In Time"
+    },
+    {
+      "id": 15,
+      "name": "Airmax"
+    },
+    {
+      "id": 16,
+      "name": "Baukó Attila"
+    },
+    {
+      "id": 17,
+      "name": "Békéshír Kft."
+    },
+    {
+      "id": 18,
+      "name": "DHL Express"
+    },
+    {
+      "id": 19,
+      "name": "DHL Freight"
+    },
+    {
+      "id": 20,
+      "name": "DHL Global Forwarding"
+    },
+    {
+      "id": 21,
+      "name": "DHL SLOVAKIA"
+    },
+    {
+      "id": 22,
+      "name": "DIVERSE"
+    },
+    {
+      "id": 23,
+      "name": "ETS Group"
+    },
+    {
+      "id": 24,
+      "name": "Euro V"
+    },
+    {
+      "id": 25,
+      "name": "FedEx"
+    },
+    {
+      "id": 26,
+      "name": "Fekete Zoltán "
+    },
+    {
+      "id": 27,
+      "name": "Hunicorn Kft"
+    },
+    {
+      "id": 28,
+      "name": "In Time"
+    },
+    {
+      "id": 29,
+      "name": "P&T Trans Bt."
+    },
+    {
+      "id": 30,
+      "name": "Péterfi&Szabó Kft. "
+    },
+    {
+      "id": 31,
+      "name": "Schenker"
+    },
+    {
+      "id": 32,
+      "name": "SZAFIÁN PÁL "
+    },
+    {
+      "id": 33,
+      "name": "SzelmoTrans Kft. "
+    },
+    {
+      "id": 34,
+      "name": "Szűcs Zoltán vállalkozó"
+    },
+    {
+      "id": 35,
+      "name": "TNT"
+    },
+    {
+      "id": 36,
+      "name": "Transunisol"
+    },
+    {
+      "id": 37,
+      "name": "UPS"
+    },
+    {
+      "id": 38,
+      "name": "ZO-HA Trans Kft"
+    },
+    {
+      "id": 39,
+      "name": "Dachser"
+    },
+    {
+      "id": 40,
+      "name": "Inker"
+    },
+    {
+      "id": 41,
+      "name": "DPD"
+    },
+    {
+      "id": 42,
+      "name": "Gebrüder Weiss"
+    },
+    {
+      "id": 43,
+      "name": "Magyar Posta"
+    },
+    {
+      "id": 44,
+      "name": "GLS"
+    },
+    {
+      "id": 45,
+      "name": "Kerekes Kft"
+    },
+    {
+      "id": 46,
+      "name": "Róza Kft"
+    },
+    {
+      "id": 47,
+      "name": "Krejsa Petr"
+    },
+    {
+      "id": 48,
+      "name": "QX"
+    },
+    {
+      "id": 49,
+      "name": "24H Futár"
+    },
+    {
+      "id": 50,
+      "name": "Turabi Speed"
+    },
+    {
+      "id": 51,
+      "name": "Pannon XP"
+    },
+    {
+      "id": 52,
+      "name": "Lagermax"
+    },
+    {
+      "id": 53,
+      "name": "Fáma Futár"
+    },
+    {
+      "id": 54,
+      "name": "Climalife Kft"
+    },
+    {
+      "id": 55,
+      "name": "LGI"
+    },
+    {
+      "id": 56,
+      "name": "Knüppel"
+    },
+    {
+      "id": 57,
+      "name": "P.E. Deshko Vasil Vasilyovich"
+    },
+    {
+      "id": 58,
+      "name": "Master Print Kft"
+    },
+    {
+      "id": 59,
+      "name": "Raben"
+    },
+    {
+      "id": 60,
+      "name": "Ceva Logistics"
+    },
+    {
+      "id": 61,
+      "name": "NEMO PACK Kft"
+    },
+    {
+      "id": 62,
+      "name": "G.Englmayer"
+    },
+    {
+      "id": 63,
+      "name": "Charolais-Farm Kft."
+    },
+    {
+      "id": 64,
+      "name": "Federal Export-Import Kft"
+    },
+    {
+      "id": 65,
+      "name": "Indian Sped"
+    },
+    {
+      "id": 66,
+      "name": "Duvenbeck"
+    },
+    {
+      "id": 67,
+      "name": "Same Day "
+    },
+    {
+      "id": 68,
+      "name": "DSV"
+    },
+    {
+      "id": 69,
+      "name": "AMCO"
+    },
+    {
+      "id": 70,
+      "name": "Ekol Logistics Kft."
+    },
+    {
+      "id": 71,
+      "name": "H-Maxx Transport Kft"
+    },
+    {
+      "id": 72,
+      "name": "Transdanubia Logisztika Kft."
+    },
+    {
+      "id": 73,
+      "name": "Eurotruck Fuvar"
+    },
+    {
+      "id": 74,
+      "name": "Expressone"
+    },
+    {
+      "id": 75,
+      "name": "Innight Hungary"
+    },
+    {
+      "id": 76,
+      "name": "SC Stebo Logistic srl"
+    },
+    {
+      "id": 77,
+      "name": "Flash"
+    },
+    {
+      "id": 78,
+      "name": "Royal deluxe Speed"
+    },
+    {
+      "id": 79,
+      "name": "Rakta Transz Kft"
+    },
+    {
+      "id": 80,
+      "name": "Balla-Papp Tünde ev."
+    },
+    {
+      "id": 81,
+      "name": "Gál Balázs"
+    },
+    {
+      "id": 82,
+      "name": "Baracsi Paletta"
+    },
+    {
+      "id": 83,
+      "name": "Master Print Kft"
+    },
+    {
+      "id": 84,
+      "name": "Jasmos sro."
+    }
+  ]
 }

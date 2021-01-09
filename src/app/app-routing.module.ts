@@ -6,7 +6,7 @@ import { FuvarokComponent } from './pages/fuvarok/fuvarok.component';
 const routes: Routes = [
   {
     path: '',
-    component: ListakComponent //FuvarokComponent
+    component: FuvarokComponent
   },
   {
     path: 'listak',

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 // Layout.
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -34,13 +35,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FuvarokComponent } from './pages/fuvarok/fuvarok.component';
 import { ListakComponent } from './pages/listak/listak.component';
 import { CodesComponent } from './parts/codes/codes.component';
+import { DataTableComponent } from './parts/data-table/data-table.component';
+import { CarriersComponent } from './parts/carriers/carriers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FuvarokComponent,
     ListakComponent,
-    CodesComponent
+    CodesComponent,
+    DataTableComponent,
+    CarriersComponent
   ],
   imports: [
     BrowserModule,
@@ -55,7 +60,7 @@ import { CodesComponent } from './parts/codes/codes.component';
     MatButtonModule,
     MatCardModule,
     MatTableModule,
-    // HttpClientModule,
+    HttpClientModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,

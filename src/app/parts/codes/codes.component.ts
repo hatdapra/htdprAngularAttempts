@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ConfigService } from '../../services/config.service';
+import { Observable } from 'rxjs';
+import { ICodeItem } from '../../services/config.service';
+import { BasicService } from '../../services/basic.service';
 
 @Component({
   selector: 'app-codes',
@@ -7,12 +9,13 @@ import { ConfigService } from '../../services/config.service';
   styleUrls: ['./codes.component.scss']
 })
 export class CodesComponent implements OnInit {
-  dataSource = this.config.codeItems;
-  displayedColumns: string[] = ["id", "code", "premium", "actions"];
-  displayedColumnsLabel: any = {id: "ID", code: "Kód", premium: "Prémium", actions: "gombok"};
+  codesTitle: string = "Kódok";
+  codesDataSource$: Observable<ICodeItem[]> = this.bs.get('codes');
+  codesDisplayedColumns: string[] = ["id", "code", "premium", "actions"];
+  codesDisplayedColumnsLabel: any = {id: "ID", code: "Kód", premium: "Prémium", actions: ""};
 
   constructor(
-    protected config: ConfigService
+    private bs: BasicService
   ) { }
 
   ngOnInit(): void {

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fuvarok.component.scss']
 })
 export class FuvarokComponent implements OnInit {
+  
 
   constructor() { }
 
