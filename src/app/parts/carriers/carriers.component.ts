@@ -14,6 +14,7 @@ export class CarriersComponent implements OnInit {
   carriersDisplayedColumns: string[] = ["id", "name", "actions"];
   carriersDisplayedColumnsLabel: any = {id: "ID", name: "Név", actions: ""};
 
+
   constructor(
     private bs: BasicService
   ) { }

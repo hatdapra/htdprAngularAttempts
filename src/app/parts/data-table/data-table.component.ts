@@ -10,9 +10,10 @@ import { BasicService } from '../../services/basic.service';
 })
 export class DataTableComponent implements OnInit {
   @Input() title: string;
-  @Input() dataSource$: any;
+  @Input() dataSource: any;
   @Input() displayedColumns: string[];
   @Input() displayedColumnsLabel: any;
+  @Input() pageSizes: string[];
 
   // dataSource$: Observable<ICodeItem[]> = this.bs.get();
   

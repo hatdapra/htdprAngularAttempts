@@ -19,5 +19,7 @@ export class BasicService {
     return this.http.get<any[]>(url);
   }
 
-  
+  getCodes(): Observable<ICodeItem[]>{
+    return this.get("codes");
+  }
 }
