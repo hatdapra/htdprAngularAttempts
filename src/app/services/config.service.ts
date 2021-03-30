@@ -27,24 +27,9 @@ export class ConfigService {
   menuItems: IMenuItem[] = [
     {url: '/', text: 'Fuvarok', icon: faTable},
     {url: '/listak', text: 'Listák szerkesztése', icon: faList},
+    {url: '/test', text: 'Teszt', icon: faList},
   ];
-
-  codeItems: ICodeItem[] = [
-    {id: 1, code: "EK", premium: "nem"},
-    {id: 2, code: "EPF", premium: "igen"},
-    {id: 3, code: "EXE", premium: "nem"},
-    {id: 4, code: "EXI", premium: "nem"}
-  ]
-
-  carrierItems: ICarrierItem[] = [
-    {id: 1, name: "Airmax" },
-    {id: 2, name: "Baukó Attila" },
-    {id: 3, name: "Békéshír Kft." },
-    {id: 4, name: "DHL Express" },
-    {id: 5, name: "DHL Freight" },
-    {id: 6, name: "DHL Global Forwarding" }
-  ];
-
+  
   constructor() { 
     
   }

@@ -37,6 +37,7 @@ import { ListakComponent } from './pages/listak/listak.component';
 import { CodesComponent } from './parts/codes/codes.component';
 import { DataTableComponent } from './parts/data-table/data-table.component';
 import { CarriersComponent } from './parts/carriers/carriers.component';
+import { TestComponent } from './pages/test/test.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { CarriersComponent } from './parts/carriers/carriers.component';
     ListakComponent,
     CodesComponent,
     DataTableComponent,
-    CarriersComponent
+    CarriersComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
